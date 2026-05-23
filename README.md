@@ -1,6 +1,16 @@
-# AnyFlip Downloader 🚀 v2.0
+# AnyFlip Downloader (Desktop & Android)
 
-A lightning-fast, highly advanced, and modern tool to safely download and compile AnyFlip documents with full queue management and session history.
+A fast, lightweight, and modern desktop & mobile application designed to securely and efficiently download AnyFlip books as high-quality, lossless PDF documents.
+
+## 📱 New: Android Pro Version!
+We have officially released the **Android Pro** version (`com.funkydonke.anyflipdownloader`), featuring:
+- **Batch Processing**: Paste dozens of links at once and let the engine handle them automatically.
+- **Smart Queue & History**: The text input intelligently removes successfully downloaded URLs. If you stop halfway, your remaining queue is automatically saved and remembered!
+- **Active Job Cancellation**: Safely stop an active batch download with the Stop button. The deep Coroutine cancellation completely aborts generation and purges half-finished junk files to protect your storage.
+- **Dynamic Theme Engine**: A seamless Dark/Light mode toggle for eye comfort.
+- **Lossless Quality PDF Building**: Native rendering using Android's Bitmap and PdfDocument classes.
+
+You can download the compiled APK from the [Releases](#) section!
 
 ## ✨ New in v2.0
 * **Advanced Session History:** Every batch of links you paste is saved into a permanent history grouped by the time you started. 
